@@ -1,0 +1,32 @@
+[
+  {
+			"EmployeeName": "John",
+			"EmployeeId": "1001",
+			"Email": "john@objectfrontier.com",
+			"MobileNumber": "9865031224"
+		},
+		{
+			"EmployeeName": "Joy",
+			"EmployeeId": "1002",
+			"Email": "joy@objectfrontier.com",
+			"MobileNumber": "7702569909"
+		},
+		{
+			"EmployeeName": "Tina",
+			"EmployeeId": "1003",
+			"Email": "tina@objectfrontier.com",
+			"MobileNumber": "8798023489"
+		},
+		{
+			"EmployeeName": "Karthik",
+			"EmployeeId": "1004",
+			"Email": "karthik@objectfrontier.com",
+			"MobileNumber": "9003345890"
+		},
+		{
+			"EmployeeName": "Poorni",
+			"EmployeeId": "1005",
+			"Email": "poorni@objectfrontier.com",
+			"MobileNumber": "9565234524"
+		}
+]

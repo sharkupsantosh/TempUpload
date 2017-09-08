@@ -1,0 +1,18 @@
+<div><table border="2">
+  <tr>
+    <th>Employee Name</th>
+    <th>Employee Id</th>
+    <th>Email</th>
+    <th>Mobile Number</th>
+    <th>Change<th>
+  </tr>
+  <tr ng-repeat="eachmembers in members">
+    <td>{{eachmembers.EmployeeName}}</td>
+    <td>{{eachmembers.EmployeeId}}</td>
+    <td>{{eachmembers.Email}}</td>
+    <td>{{eachmembers.MobileNumber}}</td>
+    <td><a ng-href="#!/home/employee/lists/edit">edit</a></td>
+  </tr>
+  </table>
+</div>
+<div ui-view></div>

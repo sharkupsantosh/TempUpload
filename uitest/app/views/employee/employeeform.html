@@ -1,0 +1,26 @@
+<form action="#" method="post" > 
+  <table>
+      <tr>
+          <th><h1>New Employee</h1></th>
+      </tr>
+      <tr>
+          <th>Employee Name</th>
+          <td><input type="text" id="name"  required="Enter your Name"/></td>
+      </tr>
+      <tr>
+          <th>Employee Id</th>
+          <td><input type="text" id="employeeId"  ng-minlength="3" ng-maxlength="8" required="Enter your Employee Id"/></td>
+      </tr>
+      <tr>
+          <th>Email</th>
+          <td><input type="email" id="email"  required="Enter your Email Id"/></td>
+      </tr>
+      <tr>
+          <th>Mobile Number</th>
+          <td><input type="number" id="mobilenumber" required="Enter the Mobile Number"/></td>
+      </tr>
+      <tr>
+          <td><input type="button" onclick="validate()" value="Submit"></td>
+      </tr>
+  </table>
+</form>
